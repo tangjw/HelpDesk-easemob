@@ -34,9 +34,9 @@
         </activity>
         
         <!-- 设置环信应用的appkey -->
-        <meta-data
+        <!--<meta-data
             android:name="EASEMOB_APPKEY"
-            android:value="tang-jw#helpdesk-easemob"/>
+            android:value="tang-jw#helpdesk-easemob"/>-->
         
     </application>
 
