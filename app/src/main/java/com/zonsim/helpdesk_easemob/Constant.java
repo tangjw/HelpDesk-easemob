@@ -28,9 +28,9 @@ public class Constant extends EaseConstant {
 	
 	public static final String WEICHAT_MSG = "weichat";
 
-	public static final String DEFAULT_COSTOMER_APPKEY = "sipsoft#sandbox";
-	public static final String DEFAULT_COSTOMER_ACCOUNT = "yuanhui";
-	public static final String DEFAULT_ACCOUNT_PWD = "123456";
+	public static final String DEFAULT_COSTOMER_APPKEY = "tang-jw#helpdesk-easemob";
+	public static final String DEFAULT_COSTOMER_ACCOUNT = "test";
+	public static final String DEFAULT_ACCOUNT_PWD = "123";
 
 	public static final int MESSAGE_TO_DEFAULT = 0;
 	public static final int MESSAGE_TO_PRE_SALES = 1;

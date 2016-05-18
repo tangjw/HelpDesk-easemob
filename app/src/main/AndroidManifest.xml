@@ -20,24 +20,33 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.zonsim.helpdesk_easemob.MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        
-        <!-- 设置环信应用的appkey -->
-        <!--<meta-data
-            android:name="EASEMOB_APPKEY"
-            android:value="tang-jw#helpdesk-easemob"/>-->
-        
+    
+    
+        <!-- 聊天页面 -->
+        <activity
+            android:name=".ui.ChatActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+    
     </application>
 
 </manifest>
