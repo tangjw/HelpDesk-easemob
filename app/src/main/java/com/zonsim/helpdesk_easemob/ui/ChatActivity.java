@@ -2,7 +2,7 @@ package com.zonsim.helpdesk_easemob.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v4.app.FragmentActivity;
 
 import com.easemob.easeui.ui.EaseChatFragment;
 import com.zonsim.helpdesk_easemob.Constant;
@@ -13,7 +13,7 @@ import com.zonsim.helpdesk_easemob.utils.HelpDeskPreferenceUtils;
 /**
  * 聊天页面，需要fragment的使用{@link EaseChatFragment}
  */
-public class ChatActivity extends AppCompatActivity {
+public class ChatActivity extends FragmentActivity {
 
     public static ChatActivity activityInstance;
     private ChatFragment chatFragment;
